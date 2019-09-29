@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MySpace-Home</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+<link rel="stylesheet" href="myspace.css">
+</head>
+
+<body>
+
+<div class="header">
+<p><a href="myspace.html" style="text-decoration:none">MY SPACE</a></p>
+<div class="search">
+<input type="text" placeholder="Search for students and staff..." spellcheck="false">
+<a href="#"><input type="button" value="Search"></a>
+</div>
+<!--<img id="noti" src="#">-->
+<img onclick="logout()" id="out" src="x.jpg" >
+</div>
+
+<div class="sidebar">
+
+<div id="sidebar_links">
+
+<div id="current">MY SPACE</div><br>
+
+<a href="mycourses.html">MY COURSES</a><br>
+<a href="department.html">MY DEPARTMENT</a><br>
+<a href="achieve.html">ACHIEVEMENTS</a><br>
+<a href="upcoming.html">EVENTS</a><br>
+</div>
+
+</div>
+
+<div class="sidebar2">
+
+<div id="sidebar2_links">
+
+<div id="current">Friend Suggestions</div><br>
+
+<a href="#">Friend 1</a><br>
+<a href="#">Friend 2</a><br>
+<a href="#">Friend 3</a><br>
+<a href="#">Friend 4</a><br>
+
+<div id="current">Upcoming events</div><br>
+
+<a href="#">Event 1</a><br>
+<a href="#">Event 2</a><br>
+<a href="#">Event 3</a><br>
+<a href="#">Event 4</a><br>
+
+
+</div>
+
+</div>
+
+<div class="main">
+<input type="button" value="CREATE A POST">
+
+<div class="box">
+<br>
+<div id="int"><img src="inter.png" height="25px" align="right"></div>
+<center><img src="tek.jpg"></center>
+<p>#tekmusic #events #psgtech #replay #musicshow</p>
+</div>
+
+
+<div class="box">
+</div>
+
+
+<div class="box">
+</div>
+
+
+<div class="box">
+</div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA3jh4crWVNpZRKc5ka2yeIm9-nl6o9g7I",
+    authDomain: "loginms-5c0ca.firebaseapp.com",
+    databaseURL: "https://loginms-5c0ca.firebaseio.com",
+    projectId: "loginms-5c0ca",
+    storageBucket: "",
+    messagingSenderId: "874752855169",
+    appId: "1:874752855169:web:cab69c2fe2c53a0fe69180"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<script src="myspace.js"></script>
+
+
+</body>
+</html>

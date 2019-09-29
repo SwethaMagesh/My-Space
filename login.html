@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MySpace-Login</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+<link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+<div class="header">
+<p>MY SPACE</p>
+</div>
+
+<div class="main">
+<fieldset>
+<legend>LOGIN BOX</legend>
+<p id="error2">Incorrect username or password! Try again!</p>
+<h1>E-MAIL</h1>
+<input type="text" name="E-mail" id="email_field" spellcheck="false"><br>
+<h1>PASSWORD</h1>
+<input type="password" id="password_field" name="password"><br>
+<button id="login" onclick="login()">LOGIN</button>
+<p id="reg">New User? <a href="register.html">Register here!</a></p>
+</fieldset> 
+</div>
+
+
+<div class="footer">
+<p>  <a href="#">About</a> <a href="#">Contact</a> <a href="#">Feedback</a></p>
+</div>
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA3jh4crWVNpZRKc5ka2yeIm9-nl6o9g7I",
+    authDomain: "loginms-5c0ca.firebaseapp.com",
+    databaseURL: "https://loginms-5c0ca.firebaseio.com",
+    projectId: "loginms-5c0ca",
+    storageBucket: "",
+    messagingSenderId: "874752855169",
+    appId: "1:874752855169:web:cab69c2fe2c53a0fe69180"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<script src="login.js"></script>
+
+</body>
+</html>

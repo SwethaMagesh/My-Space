@@ -1,0 +1,170 @@
+body
+{
+overflow-x:hidden;
+overflow-y:hidden;
+background-size:cover;
+}
+
+@font-face {
+  font-family:new;
+  src: url("CODE Light.woff") format("woff");
+}
+
+.header
+{
+float:left;
+width:100%;
+background-color:#2C3E50;
+height:100px;
+top:0;
+left:0;
+position:fixed;
+z-index:1;
+}
+
+.header p
+{
+position:relative;
+font-family:new;
+font-size:50px;
+text-align:center;
+color:white;
+margin-top:25px;
+margin-left:3px;
+}
+
+.main
+{
+margin:auto;
+margin-top:150px;
+margin-bottom:60px;
+width:65%;
+height:500px;
+font-family:'Titillium Web', sans-serif;
+color:#48C9B0;
+text-align:center;
+}
+
+.main p
+{
+  color:black;
+  font-family:'Titillium Web', sans-serif;
+  font-size:18px;
+}
+
+
+.main fieldset
+{
+margin:auto;
+width:40%;
+border:solid 2px #48C9B0;
+}
+
+.main fieldset #reg a
+{
+  color:#48C9B0;
+  text-decoration: none;
+}
+
+.main fieldset #reg a:hover
+{
+  color:#48C9B0;
+  text-decoration: underline;
+}
+
+.main h1
+{
+margin-top:20px;
+font-family: 'Titillium Web', sans-serif;
+font-size:15px;
+font-weight:normal;
+color:black;
+}
+
+.main input
+{
+padding:5px 5px;
+width:250px;
+border:none;
+text-align:center;
+border-bottom:1.5px solid black;
+font-family: 'Titillium Web', sans-serif;
+color:#48C9B0;
+font-size:18px;
+}
+
+.main input:focus
+{
+outline:none;
+border:none;
+border-bottom:1.5px solid #48C9B0;
+}
+
+.main button
+{
+cursor:pointer;
+width:80%;
+padding:8px 0px;
+margin:auto;
+margin-top:30px;
+margin-bottom:20px;
+color:white;
+font-family: 'Titillium Web', sans-serif;
+font-size:18px;
+background-color:#48C9B0;
+text-align:center;
+border:none;
+}
+
+.main button:focus
+{
+  outline:none;
+}
+
+.main #error2
+{
+  margin-top:0px;
+  color:red;
+  visibility: hidden;
+}
+
+.footer
+{
+float:left;
+width:100%;
+background-color:#2C3E50;
+height:30px;
+position:fixed;
+bottom:0;
+left:0;
+z-index:1;
+}
+
+.footer p
+{
+font-family:'Open Sans',sans-serif;
+font-size:15px;
+text-align:center;
+margin-left:5px;
+margin-top:5px;
+word-spacing:2cm;
+}
+
+.footer p a:link
+{
+text-decoration:none;
+color:white;
+transition:color 0.15s;
+}
+
+.footer p a:visited
+{
+text-decoration:none;
+color:white;
+}
+
+.footer p a:hover
+{
+text-decoration:none;
+color:#48C9B0;
+}
